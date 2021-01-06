@@ -16,6 +16,8 @@
     padding: 0 2rem 0 5rem;
 }
 
+a{transition:0.1s;}
+
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
 }
@@ -230,6 +232,10 @@
 
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a img{
+    transition:0.3s;
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
